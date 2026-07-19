@@ -192,7 +192,7 @@
   details p{ padding-bottom:18px; font-size:14.5px; color:var(--ink-soft); }
 
   footer{ background: var(--ink); color:rgba(253,251,246,0.6); padding:40px 22px; }
-  footer .wrap{ display:grid; grid-template-columns:2fr 1fr 1fr; gap:30px; text-align:left; }
+  footer .wrap{ display:grid; grid-template-columns:2fr 1fr; gap:30px; text-align:left; }
   footer h4{ color:#fff; font-size:14px; margin-bottom:12px; font-family:var(--sans); }
   footer ul{ list-style:none; font-size:13px; }
   footer li{ padding:4px 0; }
@@ -491,24 +491,19 @@
 <footer>
   <div class="wrap">
     <div>
-      <div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;">
+      <div style="display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:12px;">
         <svg class="brand-mark" viewBox="0 0 30 30"><rect width="30" height="30" rx="7" fill="#D9A441"/><circle cx="15" cy="15" r="3" fill="#22303F"/></svg>
         <span style="color:#fff; font-family:var(--serif); font-weight:700; font-size:16px;">Mapa Visual de la Biblia</span>
       </div>
-      <p class="mission">Nuestra misión es ayudarte a profundizar tu fe de forma simple y clara, estudiando la Biblia y viviendo tu vida espiritual con más dirección y propósito.</p>
+      <p class="mission" style="text-align:center; margin:0 auto;">Nuestra misión es ayudarte a profundizar tu fe de forma simple y clara, estudiando la Biblia y viviendo tu vida espiritual con más dirección y propósito.</p>
     </div>
     <div>
       <h4>Legal</h4>
       <ul><li><a href="#">Términos de Uso</a></li><li><a href="#">Privacidad</a></li><li><a href="#">Política de Reembolso</a></li></ul>
     </div>
-    <div>
-      <h4>Contacto</h4>
-      <ul><li>[correo de contacto]</li><li><a href="#">Instagram</a></li></ul>
-    </div>
   </div>
   <div class="footer-bottom">
-    © <span id="year"></span> Mapa Visual de la Biblia. Todos los derechos reservados.<br>
-    [Espacio reservado para razón social / identificación fiscal de la empresa]
+    © <span id="year"></span> Mapa Visual de la Biblia. Todos los derechos reservados.
   </div>
 </footer>
 
